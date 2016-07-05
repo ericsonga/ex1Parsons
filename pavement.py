@@ -9,9 +9,18 @@ from sphinxcontrib import paverutils
 sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
-master_url = 'http://127.0.0.1:8000'
+from socket import gethostname
+
+master_url = None
+if master_url is None:
+    if gethostname() == 'web407.webfaction.com':
+        master_url = 'http://interactivepython.org'
+    else:
+        master_url = 'http://127.0.0.1:8000'
+        
 master_app = 'runestone'
 serving_dir = "./build/Ex1Parsons"
+dest = '../../static'
 
 options(
     sphinx = Bunch(docroot=".",),
