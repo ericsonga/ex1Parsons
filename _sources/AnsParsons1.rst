@@ -23,7 +23,7 @@ Answer 1: Count Target Values in Range
 
 To count the number of items in a list between a start and end index (inclusive) that are equal to a target value initialize a count to zero and then loop from the start index to the end index (inclusive).  Remember that the range function returns a list of numbers from start to end - 1, so you must loop from the start index to the end index + 1 to include both the start and end index in the range. Get the current value at the index from the list.  If the current value is equal to the target value increment the count. Return the count.
 
-.. figure:: Figures/ansParsons1.png
+.. figure:: Figures/AnsParsons1.png
     :width: 1000px
     :align: center
     :figclass: align-center

@@ -23,7 +23,7 @@ Answer 2: Find the Minimum Value
 
 To find the minimum value, create a variable to keep track of the minimum value found so far and initialize it to the first item in the list.  Then loop through all the indices in the list.  Each time through the loop get the value at the current index and test if the current value is less than the saved minimum value.  If it is, then set the minimum value to the current value.  Return the minimum value.
 
-.. figure:: Figures/ansParsons2.png
+.. figure:: Figures/AnsParsons2.png
     :width: 600px
     :align: center
     :figclass: align-center
