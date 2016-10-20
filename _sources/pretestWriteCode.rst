@@ -36,7 +36,7 @@
 Pretest Write Code Problem
 ----------------------------
 
-Finish writing the ``isLevelTrailSegment(elList,start,end)`` function which returns ``True`` when the trail segment is level and ``False`` otherwise.
+Finish writing the ``isLevelTrailSegment(elList, start, end)`` function which returns ``True`` when the trail segment is level and ``False`` otherwise.
 A trail segment is defined by a starting marker, an ending marker, and all markers between those two markers (including the start and end markers). The parameters of the method are the list of elevations at the markers, the index
 of the starting marker, and the index of the ending marker. 
 
@@ -65,7 +65,7 @@ See the table below for a summary of the examples above.
 ======= ===== =======  ====== ================  ===========
  Start   End    Max     Min   Difference <= 10   is Level?
 ======= ===== =======  ====== ================  ===========
-   7      9      75      70          5	          True
+   7      9      75      70          5			  True
    7     10      80      70         10            True
    7     11      70      90         20            False
 ======= ===== =======  ====== ================  ===========
@@ -73,7 +73,7 @@ See the table below for a summary of the examples above.
 Write Code Here
 ================
     
-Finish writing the ``isLevelTrailSegment(elList,start,end)`` function below so that the code compiles and all tests print |pass| when you click the |runbutton| button.
+Finish writing the ``isLevelTrailSegment(elList, start, end)`` function below so that the code compiles and all tests print |pass| when you click the |runbutton| button.
 
 Click on the |start| button below when you are ready to try to finish writing this code.  You will have up to 10 minutes to try to write it.  Click on the |runbutton| button to run and test the code.  Click on the |finish| button when you have solved this problem or wish to move on without solving it.
        
@@ -92,7 +92,7 @@ Click on the |start| button below when you are ready to try to finish writing th
       # difference between the maximum elevation and the minimum 
       # elevation between the start and end index (inclusive) is 
       # less than or equal to 10 and return false otherwise
-      def isLevelTrailSegment(elList,start,end):
+      def isLevelTrailSegment(elList, start, end):
       
       ====
 
@@ -103,10 +103,10 @@ Click on the |start| button below when you are ready to try to finish writing th
 
           def testOne(self):
               elevList = [100, 150, 105, 95, 95, 90, 50, 75, 75, 70, 80, 90, 100]
-              self.assertEqual(isLevelTrailSegment(elevList,7,9),True,"The trail from marker 7 to 9 should be level")
-              self.assertEqual(isLevelTrailSegment(elevList,7,10),True,"The trail from marker 7 to 10 should be level")
-              self.assertEqual(isLevelTrailSegment(elevList,2,12),False,"The trail from marker 2 to 12 should not be level")
-              self.assertEqual(isLevelTrailSegment(elevList,7,11),False,"The trail from marker 7 to 11 should not be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 7, 9), True, "The trail from marker 7 to 9 should be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 7, 10), True, "The trail from marker 7 to 10 should be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 2, 12), False, "The trail from marker 2 to 12 should not be level")
+              self.assertEqual(isLevelTrailSegment(elevList, 7, 11), False, "The trail from marker 7 to 11 should not be level")
 		   
       myTests().main()
    

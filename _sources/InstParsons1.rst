@@ -103,7 +103,7 @@ You can also count the number of items in a list between a start and end index (
    
 .. note ::
    
-    Remember that the ``range(start, end)`` function actually returns the values from start to end - 1.  So ``range(1,3)`` returns ``[1,2]``. 
+    Remember that the ``range(start, end)`` function actually returns the values from start to end - 1.  So ``range(1, 3)`` returns ``[1, 2]``. 
 
 Examples
 =========

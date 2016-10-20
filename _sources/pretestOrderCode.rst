@@ -25,12 +25,12 @@
 Pretest Order Code Problem (Mixed Up Code)
 --------------------------------------------
 
-Construct the function ``avgValuesInRange(numList,start,end)`` that takes a list of numbers, numList, and returns the average of the numbers between the start and end indices (inclusive). To do this first create a variable sum and set its initial value to 0.  Then loop from the start index to the end index (inclusive) and get the current value at the index and add it to the sum.  Check if the difference between the end index and the start index is greater than or equal to 1 and if so return the sum divided by the number of values from start to end (inclusive) and otherwise return 0 (to prevent a divide by 0).  
+Construct the function ``avgValuesInRange(numList, start, end)`` that takes a list of numbers, numList, and returns the average of the numbers between the start and end indices (inclusive). To do this first create a variable sum and set its initial value to 0.  Then loop from the start index to the end index (inclusive) and get the current value at the index and add it to the sum.  Check if the difference between the end index and the start index is greater than or equal to 1 and if so return the sum divided by the number of values from start to end (inclusive) and otherwise return 0 (to prevent a divide by 0).  
 
 Examples
 =========
    
-For example ``avgValuesInRange([10,20,30],0,0)`` should return 10 and ``avgValuesInRange([10,20,30],1,3)`` should return 25.
+For example ``avgValuesInRange([10, 20, 30], 0, 0)`` should return 10 and ``avgValuesInRange([10, 20, 30], 1, 3)`` should return 25.
     
 Order Code Here
 ================

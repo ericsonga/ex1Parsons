@@ -85,7 +85,7 @@ Click on the |start| button below when you are ready to try to fix this code.  Y
           # if count is greater than 0
           if count > 0:
 
-              # calculate and print the average
+              # calculate and return the average
               return sumRain
   
           # otherwise return 0

@@ -50,7 +50,7 @@ Another common thing to do is find the maximum value in a list.  To do this crea
 Examples
 ========
 
-For example ``getMaximum([9, 3, 8])`` should return 9 and ``getMaximum([-2, -1, -3]), -1)`` should return -1.
+For example ``getMaximum([9, 3, 8])`` should return 9 and ``getMaximum([-2, -1, -3])`` should return -1.
 
 Run Code
 =========

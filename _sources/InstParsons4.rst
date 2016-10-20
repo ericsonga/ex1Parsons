@@ -50,7 +50,7 @@ To find the minimum value in a list of numbers between a start and end index (in
 Examples
 ========
 
-For example ``getMinInRange([-3,5,8,4],1,3)`` should return 4 and ``getMinInRange([20, 10, 5],0,2)`` should return 5.  
+For example ``getMinInRange([-3, 5, 8, 4], 1, 3)`` should return 4 and ``getMinInRange([20, 10, 5], 0, 2)`` should return 5.  
 
 Run Code
 =========
@@ -89,11 +89,11 @@ Click the |runbutton| button to run the tests that check that this code is worki
    class myTests(TestCaseGui):
 
        def testOne(self):
-           self.assertEqual(getMinInRange([-3,5,8,4],1,3),4,"Test of getMinInRange([-3,5,8,4],1,3)")
-           self.assertEqual(getMinInRange([20, 10, 5],0,2),5,"Test of getMinInRange([20, 10, 5],0,2)")
-           self.assertEqual(getMinInRange([20, 10, 5],0,1),10,"Test of getMinInRange([20, 10, 5],0,1)")
-           self.assertEqual(getMinInRange([20, 10, 5],1,2),5,"Test of getMinInRange([20, 10, 5],1,2)")
-           self.assertEqual(getMinInRange([-20, -10, -5],1,2),-10,"Test of getMinInRange([-20, -10, -5],1,2)")
+           self.assertEqual(getMinInRange([-3, 5, 8, 4], 1, 3),4, "Test of getMinInRange([-3, 5, 8, 4], 1, 3)")
+           self.assertEqual(getMinInRange([20, 10, 5], 0, 2), 5, "Test of getMinInRange([20, 10, 5], 0, 2)")
+           self.assertEqual(getMinInRange([20, 10, 5], 0, 1), 10, "Test of getMinInRange([20, 10, 5],0, 1)")
+           self.assertEqual(getMinInRange([20, 10, 5], 1, 2), 5, "Test of getMinInRange([20, 10, 5], 1, 2)")
+           self.assertEqual(getMinInRange([-20, -10, -5], 1, 2),-10,"Test of getMinInRange([-20, -10, -5], 1, 2)")
 
    myTests().main()
    
@@ -109,7 +109,7 @@ The following code should return the maximum of all the values between a specifi
 Examples
 =========
 
-For example ``getMaxInRange([-3,5,2,4],2,3)`` should return 4 and ``getMaxInRange([-20, -10, -5], 1, 2)`` should return -5.  
+For example ``getMaxInRange([-3, 5, 2, 4], 2, 3)`` should return 4 and ``getMaxInRange([-20, -10, -5], 1, 2)`` should return -5.  
 
 Order Code Here
 ================

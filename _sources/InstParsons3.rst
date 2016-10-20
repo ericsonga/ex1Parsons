@@ -50,7 +50,7 @@ Another common thing to do with a list of values is find the average.  To do thi
 Examples
 ========
 
-For example ``getAverage([50,60,70])`` should return 60 and ``getAverage([])`` should return 0.
+For example ``getAverage([50, 60, 70])`` should return 60 and ``getAverage([])`` should return 0.
 
 Run Code
 =========
@@ -90,11 +90,11 @@ Click the |runbutton| button to run the tests that check that this code is worki
    class myTests(TestCaseGui):
 
        def testOne(self):
-           self.assertEqual(getAverage([50,60,70]),60.0, "Test of getAverage[50,60,70])");
-           self.assertEqual(getAverage([]),0, "Test of getAverage([])");
-           self.assertEqual(getAverage([75,60,80,95]),77.5, "Test of getAverage([75,60,80,95])");
-           self.assertEqual(getAverage([10,20,30,40,90]),38.0, "Test of getAverage([10,20,30,40,90])");
-           self.assertEqual(getAverage([4]),4.0, "Test of getAverage([4])");
+           self.assertEqual(getAverage([50, 60, 70]), 60.0, "Test of getAverage[50, 60, 70])");
+           self.assertEqual(getAverage([]), 0, "Test of getAverage([])");
+           self.assertEqual(getAverage([75 ,60, 80, 95]), 77.5, "Test of getAverage([75, 60, 80, 95])");
+           self.assertEqual(getAverage([10, 20, 30, 40, 90]), 38.0, "Test of getAverage([10, 20, 30, 40, 90])");
+           self.assertEqual(getAverage([4]), 4.0, "Test of getAverage([4])");
 
    myTests().main()
    
@@ -111,7 +111,7 @@ The following code should find the average of a list of numbers except for the l
 Examples
 ========
 
-For example ``getAverageDropLowest([50,10,50])`` should return 50 since dropping the lowest value (10) results in a sum of 100 and dividing 100 by 2 yields 50.  The call ``getAverageDropLowest([10])`` should return 0 since there is only one value in the list.  
+For example ``getAverageDropLowest([50, 10, 50])`` should return 50 since dropping the lowest value (10) results in a sum of 100 and dividing 100 by 2 yields 50.  The call ``getAverageDropLowest([10])`` should return 0 since there is only one value in the list.  
 
 Order Code Here
 ================
