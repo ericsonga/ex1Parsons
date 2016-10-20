@@ -33,7 +33,7 @@ Pretest Multiple-Choice Questions
 Please answer the following multiple-choice questions to the best of your ability.  Click the |start| button when you are ready to begin the exam.  Click on the |next| button below the question to display the next question.  Click on the |finish| button when you have answered all the questions that you can answer.   
 
 .. timed:: pretest_mc_timed
-   :timelimit: 13
+   :timelimit: 15
    :noresult:
    :nofeedback:
        
